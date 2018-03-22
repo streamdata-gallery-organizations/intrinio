@@ -16,8 +16,8 @@ tags:
 - Free Tier
 - Financial Services
 - Enterprise
-created: "2018-03-15"
-modified: "2018-03-15"
+created: "2018-03-22"
+modified: "2018-03-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/intrinio/master/_listings/intrinio/apis.yaml
 specificationVersion: "0.14"
 apis:
