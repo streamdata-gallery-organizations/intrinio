@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: intrinio.api.streamdata.gallery
+title: Streamdata Gallery Intrinio
+url: intrinio.streamdata.gallery
 tag: Intrinio
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: intrinio
 github_branch: master
 collections:
