@@ -26,23 +26,23 @@ paths:
       parameters:
       - in: query
         name: latest_filing_date
-        description: ' a date value that returns the list of companies whose latest
+        description: 'a date value that returns the list of companies whose latest
           SEC filing was filed on or after this date: YYYY'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of company name or ticker symbol with
-          the returned results being the relevant companies in compacted list format'
+        description: a string query search of company name or ticker symbol with the
+          returned results being the relevant companies in compacted list format
         type: string
       responses:
         200:

@@ -25,23 +25,23 @@ paths:
       parameters:
       - in: query
         name: latest_filing_date
-        description: ' a date value that returns the list of companies whose latest
+        description: 'a date value that returns the list of companies whose latest
           SEC filing was filed on or after this date: YYYY'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of company name or ticker symbol with
-          the returned results being the relevant companies in compacted list format'
+        description: a string query search of company name or ticker symbol with the
+          returned results being the relevant companies in compacted list format
         type: string
       responses:
         200:
@@ -61,30 +61,30 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the Intrinio symbol associated with the index: '
+        description: 'the Intrinio symbol associated with the index:'
         type: string
       - in: query
         name: order
-        description: ' returns the results in the given order: popularity | symbol'
+        description: 'returns the results in the given order: popularity | symbol'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of index name or symbol with the returned
-          results being the relevant securities in compacted list format'
+        description: a string query search of index name or symbol with the returned
+          results being the relevant securities in compacted list format
         type: string
       - in: query
         name: type
-        description: ' the type of indices specified: stock_market | economic | sic'
+        description: 'the type of indices specified: stock_market | economic | sic'
         type: string
       responses:
         200:
@@ -102,18 +102,18 @@ paths:
       parameters:
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of stock exchange name or MIC with the
-          returned results being the relevant stock exchanges in compacted list format'
+        description: a string query search of stock exchange name or MIC with the
+          returned results being the relevant stock exchanges in compacted list format
         type: string
       responses:
         200:
@@ -131,33 +131,33 @@ paths:
       parameters:
       - in: query
         name: exch_symbol
-        description: ' the Intrinio Stock Market Symbol, to specify the exchange for
-          the list of securities: '
+        description: 'the Intrinio Stock Market Symbol, to specify the exchange for
+          the list of securities:'
         type: string
       - in: query
         name: identifier
-        description: ' the identifier for the legal entity or a security associated
-          with the company: '
+        description: 'the identifier for the legal entity or a security associated
+          with the company:'
         type: string
       - in: query
         name: last_crsp_adj_date
-        description: ' a date value that returns the list of securities that have
-          had adjusted stock prices due to a corporate event after this date: YYYY'
+        description: 'a date value that returns the list of securities that have had
+          adjusted stock prices due to a corporate event after this date: YYYY'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of security name or ticker symbol with
-          the returned results being the relevant securities in compacted list format'
+        description: a string query search of security name or ticker symbol with
+          the returned results being the relevant securities in compacted list format
         type: string
       responses:
         200:
@@ -183,7 +183,7 @@ paths:
         type: string
       - in: query
         name: conditions
-        description: ' A comma'
+        description: A comma
         type: string
       - in: query
         name: 'Contains text: &ldquo;contains&rdquo;'
@@ -221,35 +221,35 @@ paths:
       parameters:
       - in: query
         name: end_date
-        description: ' the latest date for which to return data: YYYY'
+        description: 'the latest date for which to return data: YYYY'
         type: string
       - in: query
         name: frequency
-        description: ' the frequency of the historical prices &amp; valuation data:
+        description: 'the frequency of the historical prices &amp; valuation data:
           daily | weekly | monthly | quarterly | yearly'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the company&rsquo;s
-          common stock or index'
+        description: the stock market ticker symbol associated with the company&rsquo;s
+          common stock or index
         type: string
       - in: query
         name: item
-        description: ' the specified standardized tag requested'
+        description: the specified standardized tag requested
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: sequence
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: show_date
@@ -259,15 +259,15 @@ paths:
         type: string
       - in: query
         name: sort_order
-        description: ' the order of the historical stock price dates: asc | desc'
+        description: 'the order of the historical stock price dates: asc | desc'
         type: string
       - in: query
         name: start_date
-        description: ' the earliest date for which to return data: YYYY'
+        description: 'the earliest date for which to return data: YYYY'
         type: string
       - in: query
         name: type
-        description: ' the type of periods requested '
+        description: the type of periods requested
         type: string
       responses:
         200:
@@ -287,23 +287,23 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities or the stock market index: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities or the stock market index:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: price_date
-        description: ' the specified date in which historical stock prices are returned
-          for a stock exchange '
+        description: the specified date in which historical stock prices are returned
+          for a stock exchange
         type: string
       responses:
         200:
@@ -321,31 +321,31 @@ paths:
       parameters:
       - in: query
         name: end_date
-        description: ' the last filing date for which to return filings, in the format:
+        description: 'the last filing date for which to return filings, in the format:
           YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the company&rsquo;s
-          common stock'
+        description: the stock market ticker symbol associated with the company&rsquo;s
+          common stock
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: report_type
-        description: ' the report type of the filing requested: 10'
+        description: 'the report type of the filing requested: 10'
         type: string
       - in: query
         name: start_date
-        description: ' the earliest filing date for which to return filings, in the
+        description: 'the earliest filing date for which to return filings, in the
           format: YYYY'
         type: string
       responses:
@@ -367,41 +367,41 @@ paths:
       parameters:
       - in: query
         name: date
-        description: ' the first fundamental will be the latest as of this specified
+        description: 'the first fundamental will be the latest as of this specified
           date: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities:'
         type: string
       - in: query
         name: item
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: sequence
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: statement
-        description: ' the financial statement requested, options include the income
+        description: 'the financial statement requested, options include the income
           statement, balance sheet, statement of cash flows and calculated metrics
           and ratios: income_statement | balance_sheet | cash_flow_statement | calculations'
         type: string
       - in: query
         name: type
-        description: ' the type of periods requested '
+        description: the type of periods requested
         type: string
       responses:
         200:
@@ -422,55 +422,55 @@ paths:
       parameters:
       - in: query
         name: date
-        description: ' the first fundamental will be the latest as of this specified
+        description: 'the first fundamental will be the latest as of this specified
           date: YYYY'
         type: string
       - in: query
         name: fiscal_period
-        description: ' the fiscal period associated with the fundamental: FY | Q1
-          | Q2 | Q3 | Q4 | Q1TTM | Q2TTM | Q3TTM | Q2YTD | Q3YTD'
+        description: 'the fiscal period associated with the fundamental: FY | Q1 |
+          Q2 | Q3 | Q4 | Q1TTM | Q2TTM | Q3TTM | Q2YTD | Q3YTD'
         type: string
       - in: query
         name: fiscal_year
-        description: ' the fiscal year associated with the fundamental: YYYY'
+        description: 'the fiscal year associated with the fundamental: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: rounding
-        description: "ins function) \u2013 round the returned value (actuals, thousands,
-          millions, billions): A | K | M | B"
+        description: 'ins function)  round the returned value (actuals, thousands,
+          millions, billions): A | K | M | B'
         type: string
       - in: query
         name: sequence
-        description: ' the sequence of the requested fundamental (i'
+        description: the sequence of the requested fundamental (i
         type: string
       - in: query
         name: statement
-        description: ' the financial statement requested, options include the income
+        description: 'the financial statement requested, options include the income
           statement, balance sheet, statement of cash flows and calculated metrics
           and ratios: income_statement | balance_sheet | cash_flow_statement | calculations'
         type: string
       - in: query
         name: tag
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: type
-        description: ' the type of periods requested '
+        description: the type of periods requested
         type: string
       responses:
         200:
@@ -488,50 +488,50 @@ paths:
       parameters:
       - in: query
         name: date
-        description: ' the first fundamental will be the latest as of this specified
+        description: 'the first fundamental will be the latest as of this specified
           date: YYYY'
         type: string
       - in: query
         name: fiscal_period
-        description: ' the fiscal period associated with the fundamental: FY | Q1
-          | Q2 | Q3'
+        description: 'the fiscal period associated with the fundamental: FY | Q1 |
+          Q2 | Q3'
         type: string
       - in: query
         name: fiscal_year
-        description: ' the fiscal year associated with the fundamental: YYYY'
+        description: 'the fiscal year associated with the fundamental: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities:'
         type: string
       - in: query
         name: item
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: sequence
-        description: ' an integer 0 or greater for calling a single tag from the first
-          entry, based on order'
+        description: an integer 0 or greater for calling a single tag from the first
+          entry, based on order
         type: string
       - in: query
         name: statement
-        description: ' the financial statement requested: income_statement | balance_sheet
+        description: 'the financial statement requested: income_statement | balance_sheet
           | cash_flow_statement'
         type: string
       - in: query
         name: type
-        description: ' the type of periods requested '
+        description: the type of periods requested
         type: string
       responses:
         200:
@@ -548,7 +548,7 @@ paths:
       parameters:
       - in: query
         name: id
-        description: ' the Intrinio unique identifier for the Valuation API request'
+        description: the Intrinio unique identifier for the Valuation API request
         type: string
       responses:
         200:
@@ -565,7 +565,7 @@ paths:
       parameters:
       - in: query
         name: id
-        description: ' the Intrinio unique identifier for the Valuation API request'
+        description: the Intrinio unique identifier for the Valuation API request
         type: string
       responses:
         200:
@@ -585,27 +585,27 @@ paths:
       parameters:
       - in: query
         name: end_date
-        description: ' the latest transaction date for which to return data: YYYY'
+        description: 'the latest transaction date for which to return data: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
+        description: 'the stock market ticker symbol associated with the companies
           common stock securities or the Central Index Key issued by the SEC, which
-          is the unique identifier all company filings are issued under: '
+          is the unique identifier all company filings are issued under:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: start_date
-        description: ' the earliest transaction date for which to return data: YYYY'
+        description: 'the earliest transaction date for which to return data: YYYY'
         type: string
       responses:
         200:
@@ -625,18 +625,18 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the Central Index Key issued by the SEC, which is the unique
-          identifier all owner filings are issued under:CENTRAL INDEX KEY'
+        description: the Central Index Key issued by the SEC, which is the unique
+          identifier all owner filings are issued under:CENTRAL INDEX KEY
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       responses:
         200:
@@ -656,27 +656,27 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the Central Index Key issued by the SEC, which is the unique
-          identifier all owner filings are issued under:CENTRAL INDEX KEY'
+        description: the Central Index Key issued by the SEC, which is the unique
+          identifier all owner filings are issued under:CENTRAL INDEX KEY
         type: string
       - in: query
         name: institutional
-        description: ' (true) '
+        description: (true)
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' a string query search of owner name or cik id with the returned
-          results being the relevant owners in compacted list format'
+        description: a string query search of owner name or cik id with the returned
+          results being the relevant owners in compacted list format
         type: string
       responses:
         200:
@@ -693,19 +693,19 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
+        description: 'the stock market ticker symbol associated with the companies
           common stock securities or the Central Index Key issued by the SEC, which
-          is the unique identifier all company filings are issued under: '
+          is the unique identifier all company filings are issued under:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       responses:
         200:
@@ -726,11 +726,11 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' an identifier for the Economic Index selected: '
+        description: 'an identifier for the Economic Index selected:'
         type: string
       - in: query
         name: item
-        description: ' the specified standardized tag or series ID requested: ECONOMIC
+        description: 'the specified standardized tag or series ID requested: ECONOMIC
           TAGS'
         type: string
       responses:
@@ -749,28 +749,27 @@ paths:
       parameters:
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' used to search for a ticker or bank name to return relevant
-          banks'
+        description: used to search for a ticker or bank name to return relevant banks
         type: string
       - in: query
         name: rssd_id
-        description: ' the bank/bank holding company RSSD ID issued by the Federal
+        description: 'the bank/bank holding company RSSD ID issued by the Federal
           Reserve: RSSD ID LOOKUP'
         type: string
       - in: query
         name: ticker
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities:'
         type: string
       responses:
         200:
@@ -789,17 +788,17 @@ paths:
       parameters:
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: query
-        description: ' used to search for a bank name to return relevant failed banks'
+        description: used to search for a bank name to return relevant failed banks
         type: string
       responses:
         200:
@@ -817,42 +816,42 @@ paths:
       parameters:
       - in: query
         name: fiscal_period
-        description: ' the fiscal period associated with the fundamental: FY | Q1
-          | Q2 | Q3 | Q4 | Q1TTM | Q2TTM | Q3TTM | Q2YTD | Q3YTD'
+        description: 'the fiscal period associated with the fundamental: FY | Q1 |
+          Q2 | Q3 | Q4 | Q1TTM | Q2TTM | Q3TTM | Q2YTD | Q3YTD'
         type: string
       - in: query
         name: fiscal_year
-        description: ' the fiscal year associated with the fundamental: YYYY'
+        description: 'the fiscal year associated with the fundamental: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
+        description: 'the stock market ticker symbol associated with the companies
           common stock securities, or the bank/bank holding company RSSD ID issued
-          by the Federal Reserve: '
+          by the Federal Reserve:'
         type: string
       - in: query
         name: item
-        description: 'in function) '
+        description: in function)
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: sequence
-        description: ' an integer 0 or greater for calling a single tag from the first
-          entry'
+        description: an integer 0 or greater for calling a single tag from the first
+          entry
         type: string
       - in: query
         name: statement
-        description: ' the financial statement requested from the call report, the
-          UBPR report or Y'
+        description: the financial statement requested from the call report, the UBPR
+          report or Y
         type: string
       responses:
         200:
@@ -875,18 +874,18 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
-          common stock securities or the stock market index: '
+        description: 'the stock market ticker symbol associated with the companies
+          common stock securities or the stock market index:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       responses:
         200:
@@ -903,7 +902,7 @@ paths:
       parameters:
       - in: query
         name: ticker
-        description: ' the option ticker symbol, corresponding to the underlying security'
+        description: the option ticker symbol, corresponding to the underlying security
         type: string
       responses:
         200:
@@ -920,33 +919,33 @@ paths:
       parameters:
       - in: query
         name: expiration
-        description: ' the contract expiration date, in the format YYYY'
+        description: the contract expiration date, in the format YYYY
         type: string
       - in: query
         name: identifier
-        description: ' the contract identifier (example: AAPL190118C00195000)'
+        description: 'the contract identifier (example: AAPL190118C00195000)'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: strike
-        description: ' the contract strike price'
+        description: the contract strike price
         type: string
       - in: query
         name: ticker
-        description: ' the option ticker symbol, corresponding to the underlying security'
+        description: the option ticker symbol, corresponding to the underlying security
         type: string
       - in: query
         name: type
-        description: ' the contract type, either put or call'
+        description: the contract type, either put or call
         type: string
       responses:
         200:
@@ -964,29 +963,29 @@ paths:
       parameters:
       - in: query
         name: end_date
-        description: ' the latest date for which to return data: YYYY'
+        description: 'the latest date for which to return data: YYYY'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: sector
-        description: ' the name of the sector: SECTORS'
+        description: 'the name of the sector: SECTORS'
         type: string
       - in: query
         name: source
-        description: ' The source of the data: tip'
+        description: 'The source of the data: tip'
         type: string
       - in: query
         name: start_date
-        description: ' the earliest date for which to return data: YYYY'
+        description: 'the earliest date for which to return data: YYYY'
         type: string
       responses:
         200:
