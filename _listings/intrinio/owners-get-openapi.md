@@ -453,7 +453,7 @@ paths:
         type: string
       - in: query
         name: rounding
-        description: 'ins function)  round the returned value (actuals, thousands,
+        description: 'ins function) ??? round the returned value (actuals, thousands,
           millions, billions): A | K | M | B'
         type: string
       - in: query
