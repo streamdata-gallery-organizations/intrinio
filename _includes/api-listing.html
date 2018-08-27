@@ -29,6 +29,7 @@
 
 	                 {% for property in api.properties %}
 
+                      type: {{ property.type }}<br />
 	                    {% if property.type == 'x-openapi-spec' %}
 	                      {% assign api_json_openapi_spec = property.url %}
 	                    {% endif %}
