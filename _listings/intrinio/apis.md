@@ -5,8 +5,7 @@ description: Intelligent Data, On Demand. The financial data platform for develo
   investors, students, and educators, with over 200 feeds including real-time, intraday,
   EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
   and Goo...
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Intrinio
-  Logo 1100 px.png
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png
 x-kinRank: "8"
 x-alexaRank: "303229"
 tags: Intrinio
