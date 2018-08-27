@@ -12,7 +12,7 @@
 {% assign api_json_asyncapi_url = "" %}
 
 {% for api in apis_json.apis %}
-    HERE2: {{ api_name }} == {{ page.x-collection-name }}<br />
+  
    {% if api_name == page.x-collection-name %}
 
     {% assign api_url = api.humanURL %}
