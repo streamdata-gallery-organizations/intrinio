@@ -15,7 +15,7 @@
 	        {% assign api_json_asyncapi_url = "" %}
 
 	         {% for entry in listing_object %}
-           entry: {{ entry }}<br />
+           entry1: {{ entry[1] }}<br />
 	           {% if entry.name %}
 	            {% for api in entry.apis %}
                 HERE: {{ entry.name }} == {{ item.x-collection-name }}<br />
