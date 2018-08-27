@@ -2,7 +2,7 @@
   {% for item in listing_object %}
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
-
+          root: {{ item[0] }}<br />
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
