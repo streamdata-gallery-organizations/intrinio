@@ -8,6 +8,14 @@ info:
     securities covered by Intrinio.  Includes detailed info for a single owner and
     the ability to query by name.
   version: 1.0.0
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 paths:
   /companies:
     get:
@@ -678,14 +686,6 @@ paths:
       tags:
       - Market Data
       - Owners
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

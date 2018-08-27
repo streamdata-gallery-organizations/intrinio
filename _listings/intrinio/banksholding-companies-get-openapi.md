@@ -7,6 +7,14 @@ info:
   description: Returns bank holding company list and information for all bank holding
     companies covered by Intrinio.
   version: 1.0.0
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 paths:
   /companies:
     get:
@@ -771,14 +779,6 @@ paths:
       - Market Data
       - Holding Companies
       - Banks
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

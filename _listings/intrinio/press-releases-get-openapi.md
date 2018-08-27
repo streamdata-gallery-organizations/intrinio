@@ -7,6 +7,14 @@ info:
   description: Returns the most recent press releases by Nasdaq GlobeNewsire for a
     company.
   version: 1.0.0
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 paths:
   /companies:
     get:
@@ -1181,14 +1189,6 @@ paths:
       tags:
       - Market Data
       - Press Releases
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 x-streamrank:
   polling_total_time_average: "0.16"
   polling_size_download_average: "30806.53"
