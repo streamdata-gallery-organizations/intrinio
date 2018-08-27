@@ -1,8 +1,7 @@
 <div class="taggedLinkCards__cards" id="listing">
   {% for item in listing_object %}
     {% if item.swagger %}
-      {% if item.swagger == "2.0" %}
-          root: {{ item[0] }}<br />
+      {% if item.swagger == "2.0" and item.x-complete != 1 %}
 	        {% assign api_name = "" %}
 	        {% assign api_description = "" %}
 	        {% assign api_image = "" %}
@@ -29,7 +28,6 @@
 
 	                 {% for property in api.properties %}
 
-                      type: {{ property.type }}<br />
 	                    {% if property.type == 'x-openapi-spec' %}
 	                      {% assign api_json_openapi_spec = property.url %}
 	                    {% endif %}
