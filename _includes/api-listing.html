@@ -16,33 +16,35 @@
 
 	         {% for entry in listing_object %}
 	           {% if entry.name %}
-               {% if entry.name == item.x-collection-name %}
+	            {% for api in entry.apis %}
+	               {% if entry.name == item.x-collection-name %}
 
-                 {% assign api_name = entry.name %}
-                 {% assign api_slug = entry.x-slug %}
-                 {% assign api_description = entry.description %}
-                 {% assign api_image = entry.image %}
-                 {% assign api_json_url = entry.url %}
-                 {% assign api_json_kin_rank = entry.x-kinRank %}
-                 {% assign api_json_alexa_rank = entry.x-alexaRank %}
+	                 {% assign api_name = entry.name %}
+	                 {% assign api_slug = entry.x-slug %}
+	                 {% assign api_description = entry.description %}
+	                 {% assign api_image = entry.image %}
+	                 {% assign api_json_url = entry.url %}
+	                 {% assign api_json_kin_rank = entry.x-kinRank %}
+	                 {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-                 {% for property in api.properties %}
+	                 {% for property in api.properties %}
 
-                    {% if property.type == 'x-openapi-spec' %}
-                      {% assign api_json_openapi_spec = property.url %}
-                    {% endif %}
+	                    {% if property.type == 'x-openapi-spec' %}
+	                      {% assign api_json_openapi_spec = property.url %}
+	                    {% endif %}
 
-                    {% if property.type == 'x-postman-collection' %}
-                      {% assign api_json_postman_collection = property.url %}
-                    {% endif %}
+	                    {% if property.type == 'x-postman-collection' %}
+	                      {% assign api_json_postman_collection = property.url %}
+	                    {% endif %}
 
-                    {% if property.type == 'x-asyncapi-spec' %}
-                      {% assign api_json_asyncapi_url = property.url %}
-                    {% endif %}
+	                    {% if property.type == 'x-asyncapi-spec' %}
+	                      {% assign api_json_asyncapi_url = property.url %}
+	                    {% endif %}
 
-                 {% endfor %}
+	                 {% endfor %}
 
-               {% endif %}
+	               {% endif %}
+	             {% endfor %}
 	           {% endif %}
 	         {% endfor %}
 
