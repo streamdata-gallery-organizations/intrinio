@@ -1,24 +1,24 @@
 {
 	"name": "Streadata.io API Gallery - Intrinio",
 	"description": "This is a repository of intrinio APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
-	"image": "http:\/\/template.streamdata.gallery\/assets\/intrinio.png",
+	"image": "http://template.streamdata.gallery/assets/intrinio.png",
 	"created": "2018-02-24",
 	"modified": "2018-08-27",
-	"url": "http:\/\/intrinio.streamdata.gallery\/apis.json",
+	"url": "http://intrinio.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
 			"name": "Intrinio",
 			"x-api-slug": "intrinio",
 			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/intrinio-logo-data-intelligence-on-demand.png",
-			"humanURL": "http:\/\/www.intrinio.com",
-			"baseURL": "https:\/\/\/",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
 			"tags": "Intrinio",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-organizations\/intrinio\/master\/_listings\/intrinio\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/intrinio/master/_listings/intrinio/openapi.md"
 				}
 			]
 		}
@@ -27,7 +27,7 @@
 	"include": [
 		{
 			"name": "Intrinio",
-			"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-organizations\/intrinio\/master\/_listings\/intrinio\/apis.yaml"
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/intrinio/master/_listings/intrinio/apis.yaml"
 		}
 	]
 }
