@@ -17,7 +17,6 @@
 	         {% for entry in listing_object %}
            entry1: {{ entry[1] }}<br />
 	           {% if entry.name %}
-	            {% for api in entry.apis %}
                 HERE: {{ entry.name }} == {{ item.x-collection-name }}<br />
 	               {% if entry.name == item.x-collection-name %}
 
@@ -46,7 +45,6 @@
 	                 {% endfor %}
 
 	               {% endif %}
-	             {% endfor %}
 	           {% endif %}
 	         {% endfor %}
 
