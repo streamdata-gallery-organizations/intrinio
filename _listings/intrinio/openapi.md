@@ -13,5 +13,5 @@ produces:
 - application/json
 consumes:
 - application/json
-paths: ~
+paths: []
 ---
