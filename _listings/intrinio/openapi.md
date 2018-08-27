@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Intrinio
 x-complete: 1
@@ -1276,4 +1275,3 @@ paths:
       - Market Data
       - Executives
       - Executive Roles
----
