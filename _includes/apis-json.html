@@ -13,7 +13,7 @@
 
 {% for api in apis_json.apis %}
 
-   {% if api.name == page.info.title %}
+   {{% if api.name == page.x-collection-name %}
 
     {% assign api_url = api.humanURL %}
 
