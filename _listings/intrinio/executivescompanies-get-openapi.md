@@ -8,14 +8,6 @@ info:
     companies.  Information includes the unique Intrinio executive company identifier,
     and detailed contact information for the executive at a specified company.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -1255,6 +1247,14 @@ paths:
       - Market Data
       - Executives
       - companies
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

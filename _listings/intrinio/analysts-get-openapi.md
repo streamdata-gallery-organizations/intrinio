@@ -7,14 +7,6 @@ info:
   description: Returns a list of analysts. TipRanks analysts are anonymized, but you
     will be able to reference them with the provided id field.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -1101,6 +1093,14 @@ paths:
       tags:
       - Market Data
       - Analysts
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

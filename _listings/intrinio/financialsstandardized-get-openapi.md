@@ -10,14 +10,6 @@ info:
     financials are to facilitate comparability across a single company&rsquo;s fundamentals
     and across all companies fundamentals.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -482,6 +474,14 @@ paths:
       tags:
       - Market Data
       - Financials
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

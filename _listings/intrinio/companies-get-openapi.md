@@ -7,14 +7,6 @@ info:
   description: Returns the master list of all companies covered by the Intrinio Data
     Marketplace.  You can view the Company/Security Master here.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -50,6 +42,14 @@ paths:
       tags:
       - Market Data
       - Companies
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

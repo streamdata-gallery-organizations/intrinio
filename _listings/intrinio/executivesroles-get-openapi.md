@@ -8,14 +8,6 @@ info:
     roles within the company.  For example, an executive may be the Chief Executive
     Officer, a Director, and the Chairman of the Board of Directors.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -1279,6 +1271,14 @@ paths:
       - Market Data
       - Executives
       - Executive Roles
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -11,14 +11,6 @@ info:
     and Annual Shareholder Meetings, Ex-date, Dividend pay date, Splits, Buy Backs,
     M&amp;A and Takeovers, Bankruptcies and much more'
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -898,6 +890,14 @@ paths:
       tags:
       - Market Data
       - Stock Exchanges
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

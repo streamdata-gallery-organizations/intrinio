@@ -6,14 +6,6 @@ info:
   title: Intrinio API Sector News Sentiments
   description: Returns daily summaries of news sentiments by sector and date.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -995,6 +987,14 @@ paths:
       - News
       - Sector
       - Sentiments
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,14 +7,6 @@ info:
   description: Returns the As Reported XBRL tags and labels for a given ticker, statement,
     and date or fiscal year/fiscal quarter.
   version: 1.0.0
-host: api.intrinio.com
-basePath: /
-schemes:
-- http
-produces:
-- application/json
-consumes:
-- application/json
 paths:
   /companies:
     get:
@@ -540,6 +532,14 @@ paths:
       tags:
       - Market Data
       - Tags
+host: api.intrinio.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
