@@ -15,7 +15,6 @@
 	        {% assign api_json_asyncapi_url = "" %}
 
 	         {% for entry in listing_object %}
-           entry1: {{ entry[1] }}<br />
 	           {% if entry.name %}
                 HERE: {{ entry.name }} == {{ item.x-collection-name }}<br />
 	               {% if entry.name == item.x-collection-name %}
